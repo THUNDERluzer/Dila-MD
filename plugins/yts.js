@@ -16,7 +16,7 @@ const formatViews = (views) => {
 };
 
 // URL for the thumbnail image
-const thumbnailUrl = 'https://telegra.ph/file/bdc5a5b7af8bea3139d42.jpg';
+const thumbnailUrl = 'https://telegra.ph/file/c8b2e77d86e36ca9414e8.jpg';
 
 
 
@@ -38,7 +38,7 @@ async (conn, mek, m, { from, q, reply }) => {
 
         if (videos.length === 0) return reply("No videos found for your query.");
 
-        let message = `*𝗗𝗶𝗹𝗮𝗠𝗗 𝗬𝗼𝘂𝘁𝘂𝗯𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗥𝗲𝘀𝘂𝗹𝘁 🎥*\n\n`;
+        let message = `*𝗠𝗗 𝗬𝗼𝘂𝘁𝘂𝗯𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗥𝗲𝘀𝘂𝗹𝘁 🎥*\n\n`;
 
         videos.forEach((data, index) => {
             message += `*No - ${index + 1} ⤵*\n`;
