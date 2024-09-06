@@ -17,17 +17,17 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Format the reply
         let replyText = `
-*𝗗𝗶𝗹𝗮𝗠𝗗 𝗔𝗜 𝗖𝗵𝗮𝘁 🧠*
+*𝗠𝗗 𝗔𝗜 𝗖𝗵𝗮𝘁 🧠*
 
 🔍 *𝗤𝘂𝗲𝗿𝘆*: _${q}_
 
 💬 *𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲*: _${response}_
 
-dilalk.vercel.app
-ᵐᵃᵈᵆ ᵇʸ ᵐʳᵈⁱˡᵃ ᵒᶠᶜ`;
+https://wa.me/qr/P6WADRJOKAFUK1
+ᵐᵃᵈᵆ ᵇʸ Hashan`;
 
         // Send the reply with the thumbnail image
-        await conn.sendMessage(from, { image: { url: 'https://telegra.ph/file/5aee066590cf0c6eabf9d.jpg' }, caption: replyText }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: 'https://telegra.ph/file/c8b2e77d86e36ca9414e8.jpg' }, caption: replyText }, { quoted: mek });
 
     } catch (e) {
         console.log(e);
