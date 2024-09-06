@@ -40,7 +40,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const url = data.url;
 
         let desc = `
-> *𝗗𝗶𝗹𝗮𝗠𝗗 𝗬𝗼𝘂𝘁𝘂𝗯𝗲 𝗔𝘂𝗱𝗶𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿 🎧*
+> *𝗠𝗗 𝗬𝗼𝘂𝘁𝘂𝗯𝗲 𝗔𝘂𝗱𝗶𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿 🎧*
 
 🎶 *𝗧𝗶𝘁𝗹𝗲*: _${data.title}_
 👤 *𝗖𝗵𝗮𝗻𝗻𝗲𝗹*: _${data.author.name}_
@@ -50,8 +50,8 @@ async (conn, mek, m, { from, q, reply }) => {
 👁️‍🗨️ *𝗩𝗶𝗲𝘄𝘀*: _${formatViews(data.views)}_
 🔗 *𝗟𝗶𝗻𝗸*: ${url}
 
-dilalk.vercel.app
-ᵐᵃᵈᵉ ᵇʸ ᵐʳᵈⁱˡᵃ ᵒᶠᶜ`;
+https://wa.me/qr/P6WADRJOKAFUK1
+ᵐᵃᵈᵉ ᵇʸ Hashan`;
 
         // Send video details with thumbnail
         await conn.sendPresenceUpdate('typing', from);
@@ -62,7 +62,7 @@ dilalk.vercel.app
         let downloadUrl = down.dl_url;
         await conn.sendPresenceUpdate('recording', from);
         await conn.sendMessage(from, { audio: { url: downloadUrl }, mimetype: "audio/mpeg" }, { quoted: mek });
-        await conn.sendMessage(from, { document: { url: downloadUrl }, mimetype: "audio/mpeg", fileName: `${data.title}.mp3`, caption: "💻 *ᴍᴀᴅᴇ ʙʏ ᴍʳᴅɪʟᴀ*" }, { quoted: mek });
+        await conn.sendMessage(from, { document: { url: downloadUrl }, mimetype: "audio/mpeg", fileName: `${data.title}.mp3`, caption: "💻 *ᴍᴀᴅᴇ ʙʏ ᴍʳHasa*" }, { quoted: mek });
 
     } catch (e) {
         console.log(e);
@@ -95,7 +95,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const url = data.url;
 
         let desc = `
-*𝗗𝗶𝗹𝗮𝗠𝗗 𝗬𝗼𝘂𝘁𝘂𝗯𝗲 𝗩𝗶𝗱𝗲𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿 🎥*
+*𝗠𝗗 𝗬𝗼𝘂𝘁𝘂𝗯𝗲 𝗩𝗶𝗱𝗲𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿 🎥*
 
 🎶 *𝗧𝗶𝘁𝗹𝗲*: _${data.title}_
 👤 *𝗖𝗵𝗮𝗻𝗻𝗲𝗹*: _${data.author.name}_
@@ -105,8 +105,8 @@ async (conn, mek, m, { from, q, reply }) => {
 👁️‍🗨️ *𝗩𝗶𝗲𝘄𝘀*: _${formatViews(data.views)}_
 🔗 *𝗟𝗶𝗻𝗸*: ${url}
 
-dilalk.vercel.app
-ᵐᵃᵈᵉ ᵇʸ ᵐʳᵈⁱˡᵃ ᵒᶠᶜ`;
+https://wa.me/qr/P6WADRJOKAFUK1
+ᵐᵃᵈᵉ ᵇʸ Hashan`;
 
         // Send video details with thumbnail
         await conn.sendPresenceUpdate('typing', from);
@@ -116,7 +116,7 @@ dilalk.vercel.app
         let down = await fg.ytv(url);
         let downloadUrl = down.dl_url;
         await conn.sendMessage(from, { video: { url: downloadUrl }, mimetype: "video/mp4" }, { quoted: mek });
-        await conn.sendMessage(from, { document: { url: downloadUrl }, mimetype: "video/mp4", fileName: `${data.title}.mp4`, caption: "💻 *ᴍᴀᴅᴇ ʙʏ ᴍʳᴅɪʟᴀ*" }, { quoted: mek });
+        await conn.sendMessage(from, { document: { url: downloadUrl }, mimetype: "video/mp4", fileName: `${data.title}.mp4`, caption: "💻 *ᴍᴀᴅᴇ ʙʏ ᴍʳHasa*" }, { quoted: mek });
 
     } catch (e) {
         console.log(e);
