@@ -17,17 +17,14 @@ cmd({
         const usedRAM = (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2); // Used RAM in MB
         const freeRAM = (totalRAM - parseFloat(usedRAM)).toFixed(2); // Free RAM in MB
 
-        let status = `*✸𝗗𝗶𝗹𝗮𝗠𝗗✸*
+        let status = `*✸𝗠𝗗✸*
 *𝚃𝚛𝚢𝚃𝚑𝚒𝚜⤵*
 
 .ai
 _ex-.aiHey_
 
-*SupportUs⤵*
-𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙-https://whatsapp.com/channel/0029ValK0gn4SpkP6iaXoj2y
-𝚈𝚘𝚞𝚝𝚞𝚋𝚎-https://youtube.com/@dila_lk
-𝚆𝚎𝚋𝚂𝚒𝚝𝚎-dilalk.vercel.app
-𝙱𝙾𝚃 𝚁𝚎𝚙𝚘-https://github.com/themiyadilann/Dila-MD/
+*SAVE dagnim⤵*
+𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙-https://wa.me/qr/P6WADRJOKAFUK1
 
 *Uptime:* ${runtime(process.uptime())}
 *RAM Usage:* 
@@ -107,8 +104,8 @@ _.ai_
 _.gemini_
 _.gpt3_
 
-dilalk.vercel.app
-ᵐᵃᵈᵆ ᵇʸ ᵐʳᵈⁱˡᵃ ᵒᶠᶜ`
+https://wa.me/qr/P6WADRJOKAFUK1
+ᵐᵃᵈᵆ ᵇʸ Hashan`
 
 
         // Send the image with the status as the caption
