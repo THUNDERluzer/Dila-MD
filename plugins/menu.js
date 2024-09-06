@@ -31,7 +31,7 @@ _ex-.aiHey_
 - *Used*: ${usedRAM} MB
 - *Free*: ${freeRAM} MB
 - *Total*: ${totalRAM} MB
-*Owner:* ᴍʀ ᴅɪʟᴀ
+*Owner:* ᴍʀ Hasa
 
 *OWNERMENU⤵*
 _.getsession_
