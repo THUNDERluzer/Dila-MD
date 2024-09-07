@@ -25,7 +25,7 @@ cmd({
         }, { quoted: mek || null });
         
    await conn.sendPresenceUpdate('recording', from);
-   await conn.sendMessage(from, { audio: { url: 'https://github.com/themiyadilann/DilaMD-Media/raw/main/voice/alive.mp3' }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek });
+   await conn.sendMessage(from, { audio: { url: 'https://github.com/THUNDERluzer/MY-FILES/blob/main/habibi.mp3' }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek });
 
     
 } catch (e) {
