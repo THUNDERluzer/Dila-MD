@@ -31,8 +31,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 🔗 *URL*: ${summary.content_urls.desktop.page}
 
-dilalk.vercel.app
-ᵐᵃᵈᵆ ᵇʸ ᵐʳᵈⁱˡᵃ ᵒᶠᶜ`;
+https://wa.me/qr/P6WADRJOKAFUK1
+✌️Hashan`;
 
         // Send the reply with the thumbnail image
         await conn.sendMessage(from, { image: { url: summary.originalimage.source }, caption: replyText }, { quoted: mek });
