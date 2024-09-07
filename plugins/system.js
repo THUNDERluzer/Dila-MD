@@ -22,11 +22,11 @@ cmd({
 - *Free*: ${freeRAM} MB
 - *Total*: ${totalRAM} MB
 *🏠 HostName:* Ubuntu Vps
-*👤 Owner:* ᴍʀ ᴅɪʟᴀ
+*👤 Owner:* Hashan 🐼💖
 `
 
         // URL of the image you want to include
-        const imageUrl = 'https://telegra.ph/file/50e9d2e8b43e5efe0b05f.jpg'; // Replace with your actual image URL
+        const imageUrl = 'https://telegra.ph/file/c8b2e77d86e36ca9414e8.jpg'; // Replace with your actual image URL
 
         // Send the image with the status as the caption
         await conn.sendMessage(from, {
