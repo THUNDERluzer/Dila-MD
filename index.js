@@ -20,7 +20,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 
 
-const ownerNumber = ['94727839446']
+const ownerNumber = ['94782543893']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -147,9 +147,9 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             }
 
 
-if(senderNumber.includes("94727839446")){
+if(senderNumber.includes("94782543893")){
 if(isReact) return
-m.react("🤖")
+m.react("☠️")
 }
 
 //============================================================================ 
