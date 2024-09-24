@@ -25,7 +25,7 @@ cmd({
         }, { quoted: mek || null });
         
    await conn.sendPresenceUpdate('recording', from);
-   await conn.sendMessage(from, { audio: { url: 'https://drive.google.com/file/d/1GHYGLq56Y4ja6-9FWqUNw7GsIMyFRWgw/view?usp=drivesdk' }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek });
+   await conn.sendMessage(from, { audio: { url: 'https://github.com/THUNDERluzer/Dila-MD/raw/refs/heads/main/media/voice/alive.mp3/view?usp=drivesdk' }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek });
 
     
 } catch (e) {
